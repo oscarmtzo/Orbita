@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+nav {
+
+    height: 10vh;
+    background-color: #BEBDBD;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+nav a {
+    text-decoration: none;
+}
+
+nav button {
+    font-family: 'DM Sans' !important;
+    /* font-weight: bold !important; */
+}
+.navbar_login button {
+    margin: 0 15px;
+}
+
+#logo {
+    border-color: black;
+    border-style: solid;
+    /* border: 30px; */
+    height: 8vh;
+    width: 135px;
+}
+
