@@ -2,6 +2,7 @@ import React from 'react'
 // import { Link } from 'react-router-dom';
 // import Button from '@mui/material/Button';
 import NavBar from '../NavBar';
+import Footer from './../Footer';
 
 const Login = () => {
     return (
@@ -15,6 +16,7 @@ const Login = () => {
             </Button>
             <br/>
             <Link to="/">Inicio</Link> */}
+            <Footer />
         </>
     )
 }

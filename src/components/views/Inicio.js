@@ -3,13 +3,17 @@ import React from 'react'
 import NavBar from './../NavBar'
 import Button from '@mui/material/Button'
 import { Link } from 'react-router-dom'
+import Footer from './../Footer';
+
+import inicio_nave_undraw_maker_launch from './../../assets/imgs/inicio_nave_undraw_maker_launch.png'
 
 import './../styles/Inicio.css'
-
 /**
  * @function permite crear temas personailzados
  */
 import { createTheme } from '@mui/material/styles'
+
+
 
 const theme = createTheme(
     {
@@ -44,11 +48,11 @@ const Inicio = () => {
             <NavBar></NavBar>
             <header>
                 <section>
-                    <article>
+                    <article className='articulo_inicio'>
                         <h1>*Orbita* es la comunidad aeroespacial no. 1</h1>
                         <p>Aprende, encuentra trabajo o recluta a los mejores miembros de la comunidad aeroespacial. </p>
                     </article>
-                    <article>
+                    <article className='botones_principales'>
                         <Link to="/cursos">
                             <Button theme={theme} variant="contained">VER LOS CURSOS</Button>
                         </Link>
@@ -58,14 +62,38 @@ const Inicio = () => {
                     </article>
                 </section>
                 <aside>
-                    <div className='img_inicio'></div>
+                    <img className='img_inicio' src={inicio_nave_undraw_maker_launch} alt='imagen de nave espacial' />
                 </aside>
             </header>
             <main>
+                <section>
+                    <article>
+                        <h2>
+                            Entérate de los últimos avances en la industria aeroespacial mexicana.
+                            Conoce los proyectos mas relevantes del sector público y privado de la industria aeroespacial mexicana.    
+                        </h2>
+                    </article>
+                </section>
+                <section>
+                    <article>
+                        <h2>
+                            Contrata a los mejores profesionales de la industria aeroespacial mexicana. 
+                            Conoce sus perfiles y encuentra el miembro ideal para tu equipo de trabajo, lleva la industria aeroespacial a un nuevo nivel.    
+                        </h2>
+                    </article>
+                </section>
+                <section>
+                    <article>
+                        <h2>
+                            Encuentra trabajo en la industria aeroespacial mexicana. 
+                            Forma parte del equipo de las mejores empresas e instituciones de la industria aeroespacial mexicana.    
+                        </h2>
+                    </article>
+                </section>
             </main>
-            <h1>Pagina de Inicio</h1>
+            <Footer />
         </>
-        )
+    )
 }
 
 export default Inicio

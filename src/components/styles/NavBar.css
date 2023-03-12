@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
+
+
 nav {
 
     height: 10vh;
@@ -7,6 +9,8 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    width: 100vw;
 
 }
 nav a {

@@ -4,22 +4,59 @@ header {
     display: flex;
 }
 
-section {
+header section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
 
-aside {
+.articulo_inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
 
-    height: 50vh;
-    
+.articulo_inicio h1 {
+    color: #5D5A88;
+    font-size: 40px;
+}
+
+.articulo_inicio p {
+    color: #5D5A88;
+    font-size: 24px;
+}
+
+.botones_principales {
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.botones_principales button {
+    position: inherit;
+}
+
+header aside {
+    height: 90vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .img_inicio {
-    border: black;
-    border-style: solid;
-    height: auto;
-    width: inherit;
+    width: 45vw;
+    height: fit-content;
+}
+
+.App main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.App main section {
+    width: 60vw;
 }

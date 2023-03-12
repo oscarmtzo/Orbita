@@ -1,0 +1,38 @@
+footer {
+    background-color: #BEBDBD;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_section1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.footer_section1 article {
+    display: flex;
+    flex-direction: column;
+}
+.footer_section1 article a {
+    color: #5D5A88;
+    padding: 5px 0;
+    font-weight: 600;
+}
+
+.footer_section1 article aside a {
+    padding-right: 15px;
+}
+
+.footer_section2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+footer section article:nth-child(2) {
+    display: flex;
+    align-items: flex-end;
+    color: #5D5A88;
+    font-weight: 600;
+}
