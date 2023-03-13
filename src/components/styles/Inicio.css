@@ -58,5 +58,22 @@ header aside {
 }
 
 .App main section {
-    width: 60vw;
+    width: 80vw;
+}
+
+.App main section article:nth-child(1) {
+    text-align: center;
+}
+
+.App main article:nth-child(2) {
+    padding: 20px 0;
+}
+.App main article div {
+    display: flex;
+    justify-content: space-between;
+}
+.App main article div div {
+    /* padding: 20px 0; */
+    margin: 20px 10px;
+    display: block;
 }

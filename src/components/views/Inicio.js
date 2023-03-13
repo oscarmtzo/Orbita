@@ -1,11 +1,18 @@
 import React from 'react'
 // import { Link } from "react-router-dom";
-import NavBar from './../NavBar'
-import Button from '@mui/material/Button'
-import { Link } from 'react-router-dom'
+import NavBar from './../NavBar';
+import Button from '@mui/material/Button';
+import { Link } from 'react-router-dom';
 import Footer from './../Footer';
 
+
+import CardProyectos from '../CardProyectos';
+import CardPerfiles from '../CardPerfiles';
+
 import inicio_nave_undraw_maker_launch from './../../assets/imgs/inicio_nave_undraw_maker_launch.png'
+
+
+// ejemplos de imagenes para cards
 
 import './../styles/Inicio.css'
 /**
@@ -37,10 +44,12 @@ const theme = createTheme(
                         font-weight: 800;
                     }
                 `
-            }  
+            }
         }
     }
 )
+
+
 
 const Inicio = () => {
     return (
@@ -73,6 +82,17 @@ const Inicio = () => {
                             Conoce los proyectos mas relevantes del sector público y privado de la industria aeroespacial mexicana.    
                         </h2>
                     </article>
+                    <article>
+                        <div>
+
+                            <CardProyectos theme={theme}/>
+                        </div>
+                        <div>
+
+                            <CardProyectos theme={theme}/>
+                        </div>
+                        
+                    </article>
                 </section>
                 <section>
                     <article>
@@ -80,6 +100,14 @@ const Inicio = () => {
                             Contrata a los mejores profesionales de la industria aeroespacial mexicana. 
                             Conoce sus perfiles y encuentra el miembro ideal para tu equipo de trabajo, lleva la industria aeroespacial a un nuevo nivel.    
                         </h2>
+                    </article>
+                    <article>
+                        <div>
+                            <CardPerfiles theme={theme} />
+                        </div>
+                        <div>
+                            <CardPerfiles theme={theme} />
+                        </div>
                     </article>
                 </section>
                 <section>
