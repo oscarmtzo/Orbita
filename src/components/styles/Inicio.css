@@ -77,3 +77,13 @@ header aside {
     margin: 20px 10px;
     display: block;
 }
+
+#CardEmpleos {
+    display: flex;
+    justify-content: space-evenly;
+    color: #5D5A88;
+}
+
+#CardEmpleos > div:hover {
+    background-color: #bebdbd63;
+}

@@ -20,7 +20,7 @@ const Footer = () => {
       <section className='footer_section1'>
          <article>
             <Link underline='hover' href="/cursos">Enseña en Orbita</Link>
-            <Link underline='hover' href="/">Bolsa de Trabajo</Link>
+            <Link underline='hover' href="/#empleos">Bolsa de Trabajo</Link>
             <Link underline='hover' href="/">Contrata a un profesional</Link>
          </article>
          <article>

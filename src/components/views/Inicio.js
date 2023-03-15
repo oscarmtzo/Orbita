@@ -8,6 +8,7 @@ import Footer from './../Footer';
 
 import CardProyectos from '../CardProyectos';
 import CardPerfiles from '../CardPerfiles';
+import CardEmpleos from '../CardEmpleos';
 
 import inicio_nave_undraw_maker_launch from './../../assets/imgs/inicio_nave_undraw_maker_launch.png'
 
@@ -110,12 +111,20 @@ const Inicio = () => {
                         </div>
                     </article>
                 </section>
-                <section>
+                <section id="empleos">
                     <article>
                         <h2>
                             Encuentra trabajo en la industria aeroespacial mexicana. 
                             Forma parte del equipo de las mejores empresas e instituciones de la industria aeroespacial mexicana.    
                         </h2>
+                    </article>
+                    <article >
+                        <div id='CardEmpleos'>
+                            <CardEmpleos />
+                        </div>
+                        <div id='CardEmpleos'>
+                            <CardEmpleos />
+                        </div>
                     </article>
                 </section>
             </main>

@@ -21,7 +21,7 @@ const mostrarCards = (data, themeStyle) => {
     return data.map( (cardInfo, index) => {
         return (
 
-        <Card key={index} sx={{ maxWidth: 190}}>
+        <Card key={index} sx={{ maxWidth: 220}}>
                 <CardMedia 
                     component="img"
                     image={cardInfo.img}
@@ -47,23 +47,6 @@ const CardProyectos = (props) => {
     return (
         <>
             {mostrarCards(dataProyectos, theme)}
-            {/* <Card sx={{ maxWidth: 190}}>
-                <CardMedia 
-                    component="img"
-                    image={dataUnProyecto.img}
-                    height="50"
-                    alt="Proyectos Aeronauticos"
-                />
-                <CardContent>
-
-                    <h4>{dataUnProyecto.titulo}</h4>
-                    <p>Entérate de este proyecto antes que nadie y siéntete orgulloso de los ingenieros mexicanos.</p>
-                </CardContent>
-                <CardActions>
-
-                    <Button theme={props.theme} variant='contained'size="small" href={dataUnProyecto.link} target="_blank">Leer Mas</Button>
-                </CardActions>
-            </Card> */}
         </>
     )
 }

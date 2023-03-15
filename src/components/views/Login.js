@@ -10,12 +10,6 @@ const Login = () => {
             <NavBar></NavBar>            
             <h1>Iniciar sesión</h1>
             <br/>
-            {/* <Button variant="contained">
-
-                <Link to="/cursos">Cursos</Link>
-            </Button>
-            <br/>
-            <Link to="/">Inicio</Link> */}
             <Footer />
         </>
     )

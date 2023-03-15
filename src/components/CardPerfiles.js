@@ -34,7 +34,7 @@ const mostrarCards = (data, themeStyle) => {
                     alt="Proyectos Aeronauticos"
                 />
                 <CardContent>
-                    <Avatar alt={cardInfo.nombre} src={cardInfo.imgPerfil} />
+                    <Avatar alt={cardInfo.nombre} src={cardInfo.imgPerfil} style={ {position: 'static'} } />
                     <h4>{cardInfo.nombre}</h4>
                     <p>{cardInfo.ubicacion}</p>
                 </CardContent>
