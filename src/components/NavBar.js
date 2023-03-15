@@ -12,6 +12,9 @@ import Button from '@mui/material/Button'
  */
 import { createTheme } from '@mui/material/styles'
 
+// imagenes
+import Logo_Laboratorio_Virtual from './../assets/imgs/Logo_Laboratorio_Virtual.png'
+
 const theme = createTheme(
     {
         palette: {
@@ -46,7 +49,8 @@ const NavBar = () => {
         <nav>
             <Link to="/">
                 <div className="logo_container">
-                    <div id="logo"></div>
+                    <img id="logo" src={Logo_Laboratorio_Virtual} alt="logo_orbita" />
+                    {/* <div id="logo"></div> */}
                 </div>
             </Link>
             <Link to="/cursos">

@@ -1,0 +1,28 @@
+h1, h2, h3, h4, h5, h6, p {
+    color: #5D5A88;
+    font-weight: 600;
+}
+
+header {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header article {
+    display: flex;
+}
+
+header article img {
+    width: 400px;
+    height: fit-content;
+}
+
+header article aside {
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    justify-content: space-evenly;
+}

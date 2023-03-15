@@ -26,10 +26,11 @@ nav button {
 }
 
 #logo {
-    border-color: black;
-    border-style: solid;
+    /* border-color: black; */
+    /* border-style: solid; */
     /* border: 30px; */
-    height: 8vh;
-    width: 135px;
+    /* height: 8vh; */
+    /* width: 135px; */
+    height: 9vh;
 }
 
