@@ -5,6 +5,10 @@ import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 import Footer from './../Footer';
 
+//----
+// url especial para que funione con github pages
+import { url } from './../../App';
+//----
 
 import CardProyectos from '../CardProyectos';
 import CardPerfiles from '../CardPerfiles';
@@ -63,10 +67,10 @@ const Inicio = () => {
                         <p>Aprende, encuentra trabajo o recluta a los mejores miembros de la comunidad aeroespacial. </p>
                     </article>
                     <article className='botones_principales'>
-                        <Link to="/cursos">
+                        <Link to={ url + "/cursos"}>
                             <Button theme={theme} variant="contained">VER LOS CURSOS</Button>
                         </Link>
-                        <Link to="/login">
+                        <Link to={ url + "/login"}>
                             <Button theme={theme} variant="contained">CREA TU CUENTA GRATIS</Button>
                         </Link>
                     </article>
