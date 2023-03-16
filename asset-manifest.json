@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.12317fa4.css",
-    "main.js": "/static/js/main.503488b9.js",
-    "static/media/orbita_footer_image.png": "/static/media/orbita_footer_image.6e0d77f4441c8595323b.png",
-    "static/media/Logo_Laboratorio_Virtual.png": "/static/media/Logo_Laboratorio_Virtual.b03e2b29c341f6763812.png",
-    "static/media/inicio_nave_undraw_maker_launch.png": "/static/media/inicio_nave_undraw_maker_launch.b148c22a0a5c07161331.png",
-    "static/media/undraw_To_the_moon.png": "/static/media/undraw_To_the_moon.4ce68a48be69775e913e.png",
-    "static/media/undraw_Teaching.png": "/static/media/undraw_Teaching.d89d9b6f4257510adde5.png",
-    "static/media/undraw_Aircraft.png": "/static/media/undraw_Aircraft.cee3932958f653072278.png",
-    "index.html": "/index.html",
-    "main.12317fa4.css.map": "/static/css/main.12317fa4.css.map",
-    "main.503488b9.js.map": "/static/js/main.503488b9.js.map"
+    "main.css": "/orbita/static/css/main.12317fa4.css",
+    "main.js": "/orbita/static/js/main.e0aea1d6.js",
+    "static/media/orbita_footer_image.png": "/orbita/static/media/orbita_footer_image.6e0d77f4441c8595323b.png",
+    "static/media/Logo_Laboratorio_Virtual.png": "/orbita/static/media/Logo_Laboratorio_Virtual.b03e2b29c341f6763812.png",
+    "static/media/inicio_nave_undraw_maker_launch.png": "/orbita/static/media/inicio_nave_undraw_maker_launch.b148c22a0a5c07161331.png",
+    "static/media/undraw_To_the_moon.png": "/orbita/static/media/undraw_To_the_moon.4ce68a48be69775e913e.png",
+    "static/media/undraw_Teaching.png": "/orbita/static/media/undraw_Teaching.d89d9b6f4257510adde5.png",
+    "static/media/undraw_Aircraft.png": "/orbita/static/media/undraw_Aircraft.cee3932958f653072278.png",
+    "index.html": "/orbita/index.html",
+    "main.12317fa4.css.map": "/orbita/static/css/main.12317fa4.css.map",
+    "main.e0aea1d6.js.map": "/orbita/static/js/main.e0aea1d6.js.map"
   },
   "entrypoints": [
     "static/css/main.12317fa4.css",
-    "static/js/main.503488b9.js"
+    "static/js/main.e0aea1d6.js"
   ]
 }
