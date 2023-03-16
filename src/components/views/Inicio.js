@@ -95,7 +95,7 @@ const Inicio = () => {
                         
                     </article>
                 </section>
-                <section>
+                <section id="perfiles">
                     <article>
                         <h2>
                             Contrata a los mejores profesionales de la industria aeroespacial mexicana. 

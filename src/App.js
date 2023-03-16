@@ -6,14 +6,15 @@ import Login from './components/views/Login';
 import Cursos from './components/views/Cursos'
 import NotFound from './components/views/NotFound';
 
+export const url = "/Orbita"
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path='/' element={ <Inicio/> } />
-        <Route path='/cursos' element={ <Cursos/> } />
-        <Route path='/login' element={ <Login/> } />
-        <Route path='/*' element={ <NotFound /> } />
+        <Route path={url+'/'} element={ <Inicio/> } />
+        <Route path={ url + '/cursos'} element={ <Cursos/> } />
+        <Route path={url + '/login'} element={ <Login/> } />
+        <Route path={url + '/*'} element={ <NotFound /> } />
       </Routes>
     </div>
   );
