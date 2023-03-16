@@ -2,7 +2,7 @@
   "name": "cda_orbita",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://oscarmtzo.github.io-Orbita/",
+  "homepage": "http://oscarmtzo.github.io/orbita/",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
