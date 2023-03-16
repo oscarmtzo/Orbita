@@ -56,7 +56,7 @@ const Inicio = () => {
     return (
         <>  
             <NavBar></NavBar>
-            <header>
+            <header id="header_inicio">
                 <section>
                     <article className='articulo_inicio'>
                         <h1>*Orbita* es la comunidad aeroespacial no. 1</h1>
