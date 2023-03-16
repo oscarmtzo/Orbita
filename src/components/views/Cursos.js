@@ -5,10 +5,12 @@ import Footer from './../Footer';
 // estilos
 import './../styles/Cursos.css'
 import {theme} from './Inicio';
+import Paper from '@mui/material/Paper'
 import Button from '@mui/material/Button';
 import FilterAltOutlinedIcon from '@mui/icons-material/FilterAltOutlined';
 import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined';
 import Menu from '@mui/material/Menu';
+import CardCursos from '../CardCursos';
 
 //imagenes
 import undraw_Teaching from './../../assets/imgs/undraw_Teaching.png'
@@ -20,7 +22,7 @@ const Cursos = () => {
             <br/>
             <br/>
             <br/>
-            <header>
+            <header id="header_cursos">
                 <h1>¿Quierés compartir tus conocimientos? Publica un curso.</h1>
                 <article>
                     <img src={undraw_Teaching} alt={'undraw_Teaching.png'}/>
@@ -32,10 +34,16 @@ const Cursos = () => {
             </header>
             <main>
                 <h2>¿Hora de aprender? encuentra todos los cursos de la comunidad</h2>
-                <aside>
-                    <Button theme={theme} >Filtros <FilterAltOutlinedIcon /> <KeyboardArrowDownOutlinedIcon /> </Button>
-                </aside>
+                <Paper elevation={1} sx={ { width: 'fit-content' } }>
+                    <Menu >
 
+                    </Menu>
+                        <Button theme={theme} >Filtros <FilterAltOutlinedIcon /> <KeyboardArrowDownOutlinedIcon /> </Button>
+
+                </Paper>
+                <article>
+                    <CardCursos />
+                </article>
             </main>
             <Footer />
         </>
