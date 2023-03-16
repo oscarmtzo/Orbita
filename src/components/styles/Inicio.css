@@ -1,10 +1,10 @@
-header {
+#header_inicio {
     height: 90vh;
-
     display: flex;
+    flex-direction: row;
 }
 
-header section {
+#header_inicio section {
     display: flex;
     flex-direction: column;
     align-items: center;
