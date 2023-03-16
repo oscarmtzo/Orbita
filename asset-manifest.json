@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Orbita/static/css/main.12317fa4.css",
+    "main.js": "/Orbita/static/js/main.f4c31919.js",
+    "static/media/orbita_footer_image.png": "/Orbita/static/media/orbita_footer_image.6e0d77f4441c8595323b.png",
+    "static/media/Logo_Laboratorio_Virtual.png": "/Orbita/static/media/Logo_Laboratorio_Virtual.b03e2b29c341f6763812.png",
+    "static/media/inicio_nave_undraw_maker_launch.png": "/Orbita/static/media/inicio_nave_undraw_maker_launch.b148c22a0a5c07161331.png",
+    "static/media/undraw_To_the_moon.png": "/Orbita/static/media/undraw_To_the_moon.4ce68a48be69775e913e.png",
+    "static/media/undraw_Teaching.png": "/Orbita/static/media/undraw_Teaching.d89d9b6f4257510adde5.png",
+    "static/media/undraw_Aircraft.png": "/Orbita/static/media/undraw_Aircraft.cee3932958f653072278.png",
+    "index.html": "/Orbita/index.html",
+    "main.12317fa4.css.map": "/Orbita/static/css/main.12317fa4.css.map",
+    "main.f4c31919.js.map": "/Orbita/static/js/main.f4c31919.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12317fa4.css",
+    "static/js/main.f4c31919.js"
+  ]
+}
