@@ -35,10 +35,8 @@ const Cursos = () => {
             <main>
                 <h2>¿Hora de aprender? encuentra todos los cursos de la comunidad</h2>
                 <Paper elevation={1} sx={ { width: 'fit-content' } }>
-                    <Menu >
-
-                    </Menu>
-                        <Button theme={theme} >Filtros <FilterAltOutlinedIcon /> <KeyboardArrowDownOutlinedIcon /> </Button>
+                    
+                    <Button theme={theme} >Filtros <FilterAltOutlinedIcon /> <KeyboardArrowDownOutlinedIcon /> </Button>
 
                 </Paper>
                 <article>
