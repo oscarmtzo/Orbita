@@ -9,7 +9,6 @@ import Paper from '@mui/material/Paper'
 import Button from '@mui/material/Button';
 import FilterAltOutlinedIcon from '@mui/icons-material/FilterAltOutlined';
 import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined';
-import Menu from '@mui/material/Menu';
 import CardCursos from '../CardCursos';
 
 //imagenes
@@ -28,7 +27,7 @@ const Cursos = () => {
                     <img src={undraw_Teaching} alt={'undraw_Teaching.png'}/>
                     <aside>
                         <p>Si eres un profesional de la industria aeroespacial, puedes utilizar esta herramienta para compartir tus conocimientos con estudiantes y profesionales del sector. </p>
-                        <Button theme={theme} variant='contained' href="">PUBLICAR UN CURSO</Button>
+                        <Button theme={theme} style={ {position: "inherit"} } variant='contained' href="">PUBLICAR UN CURSO</Button>
                     </aside>
                 </article>
             </header>
@@ -36,13 +35,14 @@ const Cursos = () => {
                 <h2>¿Hora de aprender? encuentra todos los cursos de la comunidad</h2>
                 <Paper elevation={1} sx={ { width: 'fit-content' } }>
                     
-                    <Button theme={theme} >Filtros <FilterAltOutlinedIcon /> <KeyboardArrowDownOutlinedIcon /> </Button>
+                    <Button theme={theme} style={ {position: "inherit"} } >Filtros <FilterAltOutlinedIcon /> <KeyboardArrowDownOutlinedIcon /> </Button>
 
                 </Paper>
                 <article>
                     <CardCursos />
                 </article>
             </main>
+            <br/>
             <Footer />
         </>
     )
