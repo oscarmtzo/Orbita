@@ -22,22 +22,22 @@ const mostrarCards = (data, themeStyle) => {
         return (
 
         <Card key={index} sx={{ maxWidth: 220}}>
-                <CardMedia 
-                    component="img"
-                    image={cardInfo.img}
-                    height="50"
-                    alt="Proyectos Aeronauticos"
-                />
-                <CardContent>
+            <CardMedia 
+                component="img"
+                image={cardInfo.img}
+                height="50"
+                alt="Proyectos Aeronauticos"
+            />
+            <CardContent>
 
-                    <h4>{cardInfo.titulo}</h4>
-                    <p>Entérate de este proyecto antes que nadie y siéntete orgulloso de los ingenieros mexicanos.</p>
-                </CardContent>
-                <CardActions>
+                <h4>{cardInfo.titulo}</h4>
+                <p>Entérate de este proyecto antes que nadie y siéntete orgulloso de los ingenieros mexicanos.</p>
+            </CardContent>
+            <CardActions>
 
-                    <Button theme={themeStyle} variant='contained'size="small" href={cardInfo.link} target="_blank" style={{position: 'inherit'}}>Leer Mas</Button>
-                </CardActions>
-            </Card>
+                <Button theme={themeStyle} variant='contained'size="small" href={cardInfo.link} target="_blank" style={{position: 'inherit'}}>Leer Mas</Button>
+            </CardActions>
+        </Card>
         )
     } )
 }

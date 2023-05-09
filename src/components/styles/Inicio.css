@@ -51,28 +51,28 @@ header aside {
     height: fit-content;
 }
 
-.App main {
+#main_inicio {
     display: flex;
     flex-direction: column;
     align-items: center; 
 }
 
-.App main section {
+#main_inicio section {
     width: 80vw;
 }
 
-.App main section article:nth-child(1) {
+#main_inicio section article:nth-child(1) {
     text-align: center;
 }
 
-.App main article:nth-child(2) {
+#main_inicio article:nth-child(2) {
     padding: 20px 0;
 }
-.App main article div {
+#main_inicio article div {
     display: flex;
     justify-content: space-between;
 }
-.App main article div div {
+#main_inicio article div div {
     /* padding: 20px 0; */
     margin: 20px 10px;
     display: block;

@@ -1,0 +1,76 @@
+#main_login {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    /* color: "#5D5A88" */
+}
+
+#main_login .purpleButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 18px;
+    gap: 8px;
+    color: rgb(255, 255, 255);
+    width: 218px;
+    height: 42px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgb(93, 90, 136);
+    border-radius: 30px;
+}
+
+.input_style {
+    border: 1px solid rgb(212, 210, 227);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px 18px;
+    gap: 8px;
+}
+
+.login_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 18px;
+    gap: 8px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(212, 210, 227);
+    border-radius: 30px;
+}
+
+#main_login button:hover {
+    cursor: pointer;
+}   
+
+#signUp_button {
+    border: none;
+    font-size: inherit;
+    text-decoration: underline;
+}
+
+#main_login > section {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+#main_login > section > form {
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+#main_login > section > p {
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    justify-content: space-between;
+}

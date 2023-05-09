@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Card, CardActionArea, CardContent } from '@mui/material'
+import { Card, CardActionArea, CardContent, CardMedia, Typography } from '@mui/material'
 
 import ReactPlayer from 'react-player';
 
@@ -31,25 +31,48 @@ const dataVideos = [
 const mostrarCards = (data) => {
   return data.map( (card, index)=>{
     return (
-	<>
-		<hr/>
-		<Card key={index} sx={{ minWidth: 300, maxWidth: 800, flexGrow: 1}}>
-			<CardActionArea positionStatic href="" target="_blank">
-				<ReactPlayer
-					className="reactPlayer"
-					url={card.videoDireccion}
-					muted={true}
-				/>
-				<CardContent style={{ color: '#5D5A88'}}>
-					<h3 style={ {fontSize: "2em"} }>{card.titulo}</h3>
-					<p style={ {fontWeight: "300"} }>{card.descripcion}</p>
-				</CardContent>
-			</CardActionArea>
-		</Card>
-		<br/>
-	</>
+    <React.Fragment key={index}>
+      <hr/>
+      <Card  sx={{ minWidth: 300, maxWidth: 800, flexGrow: 1}}>
+        <CardActionArea href="" target="_blank">
+          <ReactPlayer
+            className="reactPlayer"
+            url={card.videoDireccion}
+            muted={true}
+          />
+          <CardContent style={{ color: '#5D5A88'}}>
+            <h3 style={ {fontSize: "2em"} }>{card.titulo}</h3>
+            <p style={ {fontWeight: "300"} }>{card.descripcion}</p>
+          </CardContent>
+        </CardActionArea>
+      </Card>
+      <br/>
+    </React.Fragment>
     )
   })
+}
+
+const mostrarCardsV2 = (data) => {
+  return data.map( (card, index) => {
+    return (
+      <Card>
+        <CardMedia
+          component={ReactPlayer}
+          url={card.videoDireccion}
+          width='100%'
+          height='150px'
+        />
+        <CardContent>
+          <Typography gutterBottom variant='h5' component='div'>
+            Título del video
+          </Typography>
+          <Typography variant='body2' color='text.secondary'>
+            Descripción del video
+          </Typography>
+        </CardContent>
+      </Card>
+    )
+  } )
 }
 
 const CardCursos = () => {

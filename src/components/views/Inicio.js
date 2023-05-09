@@ -79,7 +79,7 @@ const Inicio = () => {
                     <img className='img_inicio' src={inicio_nave_undraw_maker_launch} alt='imagen de nave espacial' />
                 </aside>
             </header>
-            <main>
+            <main id="main_inicio">
                 <section>
                     <article>
                         <h2>
