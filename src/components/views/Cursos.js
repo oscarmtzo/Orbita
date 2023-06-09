@@ -31,7 +31,7 @@ const Cursos = () => {
                     </aside>
                 </article>
             </header>
-            <main>
+            <main id="main_cursos">
                 <h2>¿Hora de aprender? encuentra todos los cursos de la comunidad</h2>
                 <Paper elevation={1} sx={ { width: 'fit-content' } }>
                     

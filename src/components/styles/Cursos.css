@@ -26,3 +26,9 @@ header article aside {
     height: inherit;
     justify-content: space-evenly;
 }
+
+#main_cursos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
